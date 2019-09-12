@@ -1,0 +1,35 @@
+body {
+    background: rgb(0, 0, 0);
+}
+
+.clock,
+.date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 100px;
+    text-align: center;
+    border-radius: 15px;
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellowgreen;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(0, 28, 51);
+
+}
+
+.clock {
+    font-size: 200px;
+}
+.date {
+    font-size: 50px;
+}
+
+#hour,
+#min,
+#sec {
+    padding: 20px;
+    size: 300px auto;
+}
